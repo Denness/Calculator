@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func clear() {
-        displayValue = 0
+        display.text = "0"
         history.text = "0"
         operandStack.removeAll()
     }
